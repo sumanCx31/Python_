@@ -1,3 +1,4 @@
+# Write a Python program to print the Fibonacci sequence up to a certain number using a loop.
 
 number = int(input("Enter the number: "))
 
