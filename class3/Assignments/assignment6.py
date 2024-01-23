@@ -1,17 +1,5 @@
 # Implement a program that counts the number of vowels in a given string using a loop.
-'''String = "Hello world"
-vowels = 0
-n = len(String)
 
-print(f"{n}")
-
-for i in range(1,n):
-    if String = 'a,e,i,o,u':
-vowels=vowels+1
-
-print(f"{vowels}")
-
-'''
 String = "Hello world"
 vowels = 0
 n = len(String)
