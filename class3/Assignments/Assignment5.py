@@ -1,4 +1,4 @@
-
+# Create a program that uses a loop to print the multiplication table of a given number. 
 
 number = int(input("Enter a number:"))
 
