@@ -1,17 +1,10 @@
-# Write a program to print a pattern of stars in the shape of a right-angled triangle
+# Define a list of numbers
+numbers = [5, 8, -3, 12, 7, -1, 10]
 
-# a = int(input("enter the rows:"))
-# b = int(input("enter the Columns:"))
+# Iterate over the list
+for num in numbers:
+    if num < 0:
+        print(f"Negative number encountered: {num}")
+        break
 
-
-
-# Get the number of rows and columns from the user
-
-rows = int(input("Enter the number of rows: "))
-columns = int(input("Enter the number of columns: "))
-
-# Generate and display the multiplication table matrix
-for i in range(1, rows + 1):
-    for j in range(1, columns + 1):
-        print(f"{i * j}\t", end="")
-    print(4)
+    print(f"Processing number: {num}")
