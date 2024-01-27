@@ -1,6 +1,11 @@
 # Reverse a given string without using the reverse function or slicing.
 
-string = "hello world"
+string = "helloworld"
 length = int(len(string))
+# print(length)
 
-print(length)
+length=length-1
+
+for i in string:
+    print(string[length],end="")
+    length=length-1
