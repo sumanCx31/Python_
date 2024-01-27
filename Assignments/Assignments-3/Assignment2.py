@@ -1,0 +1,3 @@
+"""Write a function merge_dicts(dict1, dict2) that takes two dictionaries as arguments and returns a new dictionary containing the combined key-value pairs of both dictionaries. If there are common keys, the values from the second dictionary should overwrite the values from the first dictionary.
+   Given the dictionary grades = {'Alice': 90, 'Bob': 85, 'Charlie': 92}, write a program that calculates and prints the average grade."""
+# ->

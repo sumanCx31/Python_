@@ -19,8 +19,6 @@ def fun_2(name):
       return "My name is default"
     
 # arguments but return 
-    
 
     # calling function 
-    
 fun_2("name")
